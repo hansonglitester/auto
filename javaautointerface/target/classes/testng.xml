@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="用户管理系统测试套件">
+
+    <test verbose="2" name="login">
+        <classes>
+            <class name="com.hsl.cn" />
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.hsl.cn.config.MyExtentReporterListener"></listener>
+    </listeners>
+
+</suite>
