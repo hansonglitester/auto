@@ -3,8 +3,10 @@
 <suite name="用户管理系统测试套件">
 
     <test verbose="2" name="login">
+
         <classes>
-            <class name="com.hsl.cn" />
+            <class name="com.hsl.cn.cases.TestSaveUser" />
+            <class name="com.hsl.cn.cases.TestLogin" />
         </classes>
     </test>
 

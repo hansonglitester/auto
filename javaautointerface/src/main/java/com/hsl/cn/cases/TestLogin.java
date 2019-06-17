@@ -1,5 +1,6 @@
 package com.hsl.cn.cases;
 
+import com.google.gson.Gson;
 import com.hsl.cn.config.TestConfig;
 import com.hsl.cn.dao.LoginCaseDao;
 import com.hsl.cn.pojo.LoginCase;
@@ -23,6 +24,7 @@ import org.apache.http.util.EntityUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -67,22 +69,35 @@ public class TestLogin extends BaseTest{
         logger.info(result);
 
         //校验测试结果
+        Gson gson=new Gson();
+        Map<String ,String> resultMap=gson.fromJson(result,Map.class);
+        Assert.assertEquals(loginCase.getExcept(),resultMap.get("rsp_code"));
+
+        //测试完成回写测试结果到库中
+        loginCase.setActual(result);
+        loginCaseDao.save(loginCase);
 
 
     }
 
 
+
+
+
+
     public String getResult(String url,Map<Object,Object> params) throws IOException {
 
         DefaultHttpClient httpclient = new DefaultHttpClient();
-
         HttpPost httpPost=new HttpPost(loginUrl);
 
         //设置请求的参数,设置请求的实体
-        List<NameValuePair> list=new ArrayList <>();
-        for(Map.Entry<Object,Object> entry:params.entrySet()){
-            NameValuePair nameValuePair=new BasicNameValuePair(entry.getKey().toString(),entry.getValue().toString());
-            list.add(nameValuePair);
+        //添加参数，添加参数到请求队形中
+        List<BasicNameValuePair> list=new ArrayList<>();
+        if(params!=null){
+            for(Map.Entry<Object,Object> entry:params.entrySet()){
+                BasicNameValuePair bnvs=new BasicNameValuePair(entry.getKey().toString(),entry.getValue().toString());
+                list.add(bnvs);
+            }
         }
         UrlEncodedFormEntity entity=new UrlEncodedFormEntity(list,"utf-8");
         httpPost.setEntity(entity);
@@ -91,20 +106,8 @@ public class TestLogin extends BaseTest{
         //发送请求,获得响应实体
         HttpResponse response=httpclient.execute(httpPost);
         String result=EntityUtils.toString(response.getEntity(),"utf-8");
-
-//        // //获得Cookie
-         CookieStore cookieStore=new BasicCookieStore();
-                // httpclient.getCookieStore();
-//        List<Cookie> cookies= cookieStore.getCookies();
-//        System.out.println(cookies.size());
-//        for (Cookie cookie:cookies){
-//           System.out.println(cookie.getName());
-//        }
-
-        cookieStore.addCookie(new BasicClientCookie("login","true"));
-        cookieStore.addCookie(new BasicClientCookie("status","200"));
-
-        //httpclient.setCookieStore(cookieStore);
+        //设置cookie信息，
+        CookieStore cookieStore=httpclient.getCookieStore();
         TestConfig.cookieStore=cookieStore;
         return result;
     }

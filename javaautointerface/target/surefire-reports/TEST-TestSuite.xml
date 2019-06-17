@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0.635" tests="5" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\java\jdk1.8.0_77\jre\bin"/>
+    <property name="java.vm.version" value="25.77-b03"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\auto\javaautointerface"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\auto\javaautointerface"/>
+    <property name="java.runtime.version" value="1.8.0_77-b03"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\java\jdk1.8.0_77\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\slt01\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\java\jdk1.8.0_77\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Lenovo\Fingerprint Manager Pro\;D:\java\jdk1.8.0_77\bin;D:\java\jdk1.8.0_77\jre\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\nodejs\;D:\apache-ant-1.10.1\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\VanDyke Software\Clients\;D:\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;D:\VisualSVN Server\bin;D:\jemeter-讲\apache-jmeter-3.1\bin;D:\jemeter-讲\apache-jmeter-3.2\apache-jmeter-3.2\bin;;D:\Program Files\Git\cmd;E:\allure-commandline-2.10.0\allure-2.10.0\bin;C:\Users\slt01\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\slt01\AppData\Local\Programs\Python\Python37-32\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\slt01\AppData\Roaming\npm;C:\Users\slt01\AppData\Local\Programs\Fiddler;."/>
+    <property name="maven.conf" value="D:\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="D:\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\slt01"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="slt01"/>
+    <property name="java.class.path" value="D:\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\java\jdk1.8.0_77\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_77"/>
+    <property name="java.ext.dirs" value="D:\java\jdk1.8.0_77\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\java\jdk1.8.0_77\jre\lib\resources.jar;D:\java\jdk1.8.0_77\jre\lib\rt.jar;D:\java\jdk1.8.0_77\jre\lib\sunrsasign.jar;D:\java\jdk1.8.0_77\jre\lib\jsse.jar;D:\java\jdk1.8.0_77\jre\lib\jce.jar;D:\java\jdk1.8.0_77\jre\lib\charsets.jar;D:\java\jdk1.8.0_77\jre\lib\jfr.jar;D:\java\jdk1.8.0_77\jre\classes"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testLogin" classname="com.hsl.cn.cases.TestLogin" time="0.59"/>
+  <testcase name="testLogin" classname="com.hsl.cn.cases.TestLogin" time="0.036"/>
+  <testcase name="testLogin" classname="com.hsl.cn.cases.TestLogin" time="0.008"/>
+  <testcase name="testSaveUser" classname="com.hsl.cn.cases.TestSaveUser" time="0.001">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at org.apache.http.impl.client.CloseableHttpClient.determineTarget(CloseableHttpClient.java:92)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.hsl.cn.cases.TestSaveUser.testSaveUser(TestSaveUser.java:62)
+</failure>
+    <system-out><![CDATA[Hibernate: select saveuserca0_.id as id1_1_, saveuserca0_.actual as actual2_1_, saveuserca0_.age as age3_1_, saveuserca0_.except as except4_1_, saveuserca0_.name as name5_1_, saveuserca0_.priority as priority6_1_, saveuserca0_.pwd as pwd7_1_, saveuserca0_.sex as sex8_1_, saveuserca0_.status as status9_1_ from save_user_case saveuserca0_
+2019-06-17 11:05:25.003  INFO 10060 --- [           main] com.hsl.cn.cases.TestSaveUser            : [SaveUserCase(id=0, name=testhsl, pwd=123456, age=15, sex=1, status=0, except=0000, actual=null, priority=null), SaveUserCase(id=1, name=testsherry, pwd=123456, age=30, sex=0, status=0, except=null, actual=null, priority=null)]
+]]></system-out>
+  </testcase>
+  <testcase name="testSaveUser" classname="com.hsl.cn.cases.TestSaveUser" time="0">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at org.apache.http.impl.client.CloseableHttpClient.determineTarget(CloseableHttpClient.java:92)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.hsl.cn.cases.TestSaveUser.testSaveUser(TestSaveUser.java:62)
+</failure>
+  </testcase>
+</testsuite>

@@ -18,6 +18,7 @@ public class TestConfig {
 
 
     //返回一个map,包含key,value
+
     public static Map<String,String > loadFile(){
         Map<String,String > map=new HashMap<String, String>();
         Enumeration<String> enumKeys=  bunble.getKeys();
@@ -38,6 +39,8 @@ public class TestConfig {
         }
         return map;
     }
+
+
 
     public static String getUrl(String key){
         return loadFile().get(key);

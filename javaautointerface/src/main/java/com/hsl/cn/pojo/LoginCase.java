@@ -17,6 +17,7 @@ public class LoginCase {
     private String pwd;
     private String except;
     private String actual;
-    private Integer priority;
+    private String success;//测试执行是否成功
+    private Boolean active;//是否需要执行测试
 
 }

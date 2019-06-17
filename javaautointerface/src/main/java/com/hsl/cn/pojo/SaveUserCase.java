@@ -19,5 +19,6 @@ public class SaveUserCase {
     private Integer status;
     private String except;
     private String actual;
-    private Integer priority;
+    private String result;
+    private String active;
 }
