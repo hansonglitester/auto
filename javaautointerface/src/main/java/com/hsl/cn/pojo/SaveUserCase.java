@@ -12,6 +12,7 @@ public class SaveUserCase {
     @Id
     @GeneratedValue
     private Integer id;
+    private String testTitle;
     private String name;
     private String pwd;
     private Integer age;
@@ -19,6 +20,9 @@ public class SaveUserCase {
     private Integer status;
     private String except;
     private String actual;
-    private String result;
-    private String active;
+    /*是否执行测试 0 执行 其他不执行*/
+    private Integer active;
+    /*测试结果*/
+    private String testResult;
+
 }

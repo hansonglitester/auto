@@ -2,20 +2,16 @@ package com.hsl.cn.cases;
 
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 import com.google.gson.Gson;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 import com.hsl.cn.config.TestConfig;
-import com.hsl.cn.dao.SaveUserCaseDao;
+import com.hsl.cn.respority.casesrespority.SaveUserCaseDao;
 import com.hsl.cn.pojo.SaveUserCase;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.util.EntityUtils;
+import com.hsl.cn.utils.HttpClientUtils;
+import org.apache.http.Header;
+import org.apache.http.message.BasicHeader;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -25,6 +21,8 @@ import java.util.List;
 import java.util.Map;
 
 public class TestSaveUser extends BaseTest  {
+    public Logger logger= LoggerFactory.getLogger(TestSaveUser.class);
+
     @Autowired
     SaveUserCaseDao saveUserCaseDao;
 
@@ -54,20 +52,29 @@ public class TestSaveUser extends BaseTest  {
         map.put("status",userCase.getStatus());
         String param=JSON.toJSONString(map);
 
+
         //发请求
-        HttpPost httpPost=new HttpPost(TestConfig.getUrl("user.saveUser"));
-        httpPost.setHeader("Content-Type","application/json");
-        httpPost.setEntity(new StringEntity(param,"utf-8"));
-        DefaultHttpClient httpClient=new DefaultHttpClient();
-        httpClient.setCookieStore(TestConfig.cookieStore);
-        HttpResponse httpResponse=httpClient.execute(httpPost);
-        String result=EntityUtils.toString(httpResponse.getEntity(),"utf-8");
-        System.out.println(result);
+        Header[] headers={
+                new BasicHeader("Content-Type","application/json"),
+                new BasicHeader("Cookie",TestConfig.cookieValue)
+        };
+        String url= TestConfig.getUrl("user.saveUser");
+        String result= HttpClientUtils.sendPostRequest(headers,url,param);
+        logger.info(result);
 
-        //校验
+        //解析结果，校验
         Map<String ,String > jsonObject =gson.fromJson(result,Map.class);
-        Assert.assertEquals(jsonObject.get("rsp_code"),userCase.getExcept());
-
+//        try {
+//            Assert.assertEquals(jsonObject.get("rsp_code"),userCase.getExcept());
+//            //校验完成，回写测试结果
+//            userCase.setActual(result);
+//            userCase.setTestResult("成功");
+//            saveUserCaseDao.save(userCase);
+//        }catch (Exception e){
+//            userCase.setActual(result);
+//            userCase.setTestResult("失败");
+//            saveUserCaseDao.save(userCase);
+//        }
     }
 
 }

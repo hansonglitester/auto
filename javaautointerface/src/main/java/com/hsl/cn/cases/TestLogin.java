@@ -2,23 +2,14 @@ package com.hsl.cn.cases;
 
 import com.google.gson.Gson;
 import com.hsl.cn.config.TestConfig;
-import com.hsl.cn.dao.LoginCaseDao;
+import com.hsl.cn.respority.casesrespority.LoginCaseDao;
 import com.hsl.cn.pojo.LoginCase;
-import com.hsl.cn.utils.HttpClientUtil;
 import org.apache.http.HttpResponse;
-import org.apache.http.NameValuePair;
 import org.apache.http.client.CookieStore;
-import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpPost;
-import org.apache.http.client.utils.HttpClientUtils;
 import org.apache.http.cookie.Cookie;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.client.BasicCookieStore;
-import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.impl.cookie.BasicClientCookie;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 import org.slf4j.Logger;
@@ -72,10 +63,17 @@ public class TestLogin extends BaseTest{
         Gson gson=new Gson();
         Map<String ,String> resultMap=gson.fromJson(result,Map.class);
         Assert.assertEquals(loginCase.getExcept(),resultMap.get("rsp_code"));
+        try{
 
-        //测试完成回写测试结果到库中
-        loginCase.setActual(result);
-        loginCaseDao.save(loginCase);
+            //测试完成回写测试结果到库中
+            loginCase.setActual(result);
+            loginCase.setTestResult("成功");
+            loginCaseDao.save(loginCase);
+        }catch (Exception e){
+            loginCase.setActual(result);
+            loginCase.setTestResult("失败");
+            loginCaseDao.save(loginCase);
+        }
 
 
     }
@@ -108,7 +106,22 @@ public class TestLogin extends BaseTest{
         String result=EntityUtils.toString(response.getEntity(),"utf-8");
         //设置cookie信息，
         CookieStore cookieStore=httpclient.getCookieStore();
-        TestConfig.cookieStore=cookieStore;
+
+
+
+        List<Cookie> cookies = httpclient.getCookieStore().getCookies();
+        StringBuffer tmpcookies = new StringBuffer();
+
+        for (Cookie c : cookies) {
+            System.out.println(c.getName());;
+            System.out.println( c.getValue());;
+            tmpcookies.append(c.getName()+"="+c.getValue() +";");
+            System.out.println("cookies = "+tmpcookies);
+        }
+
+         TestConfig.cookieValue=tmpcookies.toString();
+
+        System.out.println(cookieStore.toString()); ;
         return result;
     }
 

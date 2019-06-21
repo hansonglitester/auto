@@ -14,7 +14,7 @@ public class TestConfig {
     public static ResourceBundle bunble = ResourceBundle.getBundle("config");
 
     public static String testurl=bunble.getString("test.url");
-    public static  CookieStore cookieStore;
+    public static String cookieValue;
 
 
     //返回一个map,包含key,value
