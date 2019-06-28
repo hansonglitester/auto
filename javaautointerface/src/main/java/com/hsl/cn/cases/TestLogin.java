@@ -2,8 +2,8 @@ package com.hsl.cn.cases;
 
 import com.google.gson.Gson;
 import com.hsl.cn.config.TestConfig;
-import com.hsl.cn.respority.casesrespority.LoginCaseDao;
-import com.hsl.cn.pojo.LoginCase;
+import com.hsl.cn.respority.test.LoginCaseDao;
+import com.hsl.cn.pojo.test.LoginCase;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -77,9 +77,6 @@ public class TestLogin extends BaseTest{
 
 
     }
-
-
-
 
 
 

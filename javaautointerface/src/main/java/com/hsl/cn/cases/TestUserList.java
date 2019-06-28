@@ -2,8 +2,8 @@ package com.hsl.cn.cases;
 
 import com.google.gson.Gson;
 import com.hsl.cn.config.TestConfig;
-import com.hsl.cn.respority.casesrespority.UserListDao;
-import com.hsl.cn.pojo.UserListCase;
+import com.hsl.cn.respority.test.UserListDao;
+import com.hsl.cn.pojo.test.UserListCase;
 import com.hsl.cn.utils.HttpClientUtils;
 import org.apache.http.Header;
 import org.apache.http.message.BasicHeader;
@@ -35,8 +35,8 @@ public class TestUserList extends  BaseTest {
 
 
 
-    @Test(dataProvider = "data", groups = {"login"})
-    public void testUser(UserListCase userListCase){
+    @Test(dataProvider = "data",  dependsOnGroups = {"login"})
+    public void testUserList(UserListCase userListCase){
 
         //组参数
         Map <String, String> params = new HashMap <>();

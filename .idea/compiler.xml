@@ -8,7 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="javaautointerface" />
+        <module name="javaautotest" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="javaautointerface2" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

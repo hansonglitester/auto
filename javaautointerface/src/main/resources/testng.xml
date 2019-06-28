@@ -5,17 +5,18 @@
     <test verbose="2" name="login">
 
         <classes>
-            <class name="com.hsl.cn.cases.TestSaveUser"></class>
+
             <class name="com.hsl.cn.cases.TestLogin"></class>
+            <!--<class name="com.hsl.cn.cases.TestSaveUser"></class>-->
             <class name="com.hsl.cn.cases.TestUserDetail"></class>
-            <class name="com.hsl.cn.cases.TestUserList"></class>
+            <!--<class name="com.hsl.cn.casesTestUserList"></class>-->
         </classes>
         
         
     </test>
 
     <listeners>
-        <listener class-name="com.hsl.cn.config.MyExtentReporterListener"></listener>
+        <listener class-name="com.hsl.cn.reporter.MyExtentReporterListener"></listener>
     </listeners>
 
 </suite>

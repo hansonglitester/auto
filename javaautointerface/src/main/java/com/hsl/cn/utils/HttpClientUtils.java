@@ -28,7 +28,6 @@ public class HttpClientUtils {
 
     public static Logger logger= LoggerFactory.getLogger(TestSaveUser.class);
 
-
     /**
      * 发送get，发送的参数是键值类型的key=value&key=value
      * @param reqURL
