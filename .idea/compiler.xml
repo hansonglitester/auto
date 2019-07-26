@@ -2,17 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="javaautointerface" />
-        <module name="javaautotest" />
+        <module name="javaauto" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="javaautointerface2" target="1.8" />
+      <module name="javaautointerface" target="1.8" />
+      <module name="javaautointerface (1)" target="1.8" />
+      <module name="javaautotest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

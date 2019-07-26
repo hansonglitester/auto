@@ -1,135 +1,248 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e49db916-b080-45cb-8e46-df894c0b6622" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/javaautotest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/cases/TestLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/config/TestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/dev/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/test/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/test/LoginCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/test/SaveUserCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/test/UserDetailCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/test/UserListCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/reporter/MyExtentReporterListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/respority/dev/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/respority/test/ConfigDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/respority/test/LoginCaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/respority/test/SaveUserCaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/respority/test/UserDetailCaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/respority/test/UserListDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/utils/HttpClientUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/utils/config/DataSourceConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/utils/config/JpaCaseConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/utils/config/JpaDevConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/resources/logback-springback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaautotest/src/main/resources/testng.xml" afterDir="false" />
+    <list default="true" id="fa1b927f-ac49-4553-808b-2e2c83caa6de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/javaauto/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/appmodules/LoginAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/appmodules/SaveUserAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/config/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/test/ProjectConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/test/SaveUserCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/test/UrlConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/respority/test/ProjectConfigDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/respority/test/UrlConfigDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/TestLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/TestSaveUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/TestUserDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/TestUserList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/utils/DataObjectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/utils/HttpClientUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestSaveUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestSaveUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestUserDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestUserDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestUserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestUserList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/config/DataSourceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/utils/config/DataSourceConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/config/JpaFirstConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/utils/config/JpaCaseConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/config/JpaSecondConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/utils/config/JpaDevConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/config/MyExtentReporterListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/reporter/MyExtentReporterListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/LoginCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/test/LoginCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/SaveUserCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/test/SaveUserCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/dev/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/UserDetailCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/test/UserDetailCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/UserListCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/test/UserListCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/casesrespority/LoginCaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/test/LoginCaseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/casesrespority/SaveUserCaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/test/SaveUserCaseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/casesrespority/UserDetailCaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/test/UserDetailCaseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/casesrespority/UserListDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/test/UserListDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/resultrespority/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/dev/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/utils/HttpClientUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/utils/HttpClientUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/utils/HttpUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/src/main/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/cases/TestLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/cases/TestLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/cases/TestUserDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/cases/TestUserDetail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/cases/TestUserList.class" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/cases/TestUserList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/cases/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/config/DataSourceConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/config/JpaFirstConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/config/JpaSecondConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/config/MyExtentReporterListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/utils/HttpClientUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/utils/HttpClientUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/utils/HttpUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/target/classes/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaautointerface/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaautointerface/test-output/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestSaveUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestUserDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestUserList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/config/TestConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/dev/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/dev/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/test/LoginCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/test/LoginCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/test/SaveUserCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/test/UserDetailCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/test/UserListCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/test/UserListCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/reporter/MyExtentReporterListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/utils/reporter/MyExtentReporterListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/dev/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/respority/dev/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/test/LoginCaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/respority/test/LoginCaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/test/SaveUserCaseDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/test/UserDetailCaseDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/test/UserListDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/utils/HttpClientUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/utils/config/DataSourceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/utils/datasources/DataSourceConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/utils/config/JpaCaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/utils/datasources/JpaCaseConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/utils/config/JpaDevConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/utils/datasources/JpaApplicationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/resources/logback-springback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javaauto/src/main/resources/logback-springback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/src/main/resources/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/cases/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/cases/TestLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/cases/TestSaveUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/cases/TestUserDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/cases/TestUserList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/config/TestConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/pojo/LoginCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/pojo/SaveUserCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/pojo/UserDetailCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/pojo/UserListCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/reporter/MyExtentReporterListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/respority/casesrespority/LoginCaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/respority/casesrespority/SaveUserCaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/respority/casesrespority/UserDetailCaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/respority/casesrespority/UserListDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/respority/resultrespority/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/utils/HttpClientUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/utils/config/DataSourceConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/utils/config/JpaCaseConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/com/hsl/cn/utils/datasources/JpaDevConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/logback-springback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/classes/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/junitreports/TEST-com.hsl.cn.cases.TestLogin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/junitreports/TEST-com.hsl.cn.cases.TestSaveUser.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/old/用户管理系统测试套件/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/old/用户管理系统测试套件/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/old/用户管理系统测试套件/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/old/用户管理系统测试套件/login.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/old/用户管理系统测试套件/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/old/用户管理系统测试套件/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/old/用户管理系统测试套件/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/old/用户管理系统测试套件/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/old/用户管理系统测试套件/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/old/用户管理系统测试套件/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/old/用户管理系统测试套件/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/用户管理系统测试套件/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/用户管理系统测试套件/login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/target/surefire-reports/用户管理系统测试套件/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautointerface/test-output/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/cases/TestLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/config/TestConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/dev/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/test/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/test/LoginCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/test/UserDetailCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/test/SaveUserCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/test/UserDetailCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/test/UserListCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/reporter/MyExtentReporterListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/respority/dev/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/respority/test/ConfigDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/respority/test/LoginCaseDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/respority/test/SaveUserCaseDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/respority/test/UserDetailCaseDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/respority/test/UserListDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/utils/HttpClientUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/utils/config/DataSourceConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/utils/config/JpaCaseConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/utils/config/JpaDevConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/javaauto/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/resources/logback-springback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/src/main/resources/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/cases/TestLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/config/TestConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/pojo/dev/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/pojo/test/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/pojo/test/LoginCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/pojo/test/SaveUserCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/pojo/test/UserDetailCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/pojo/test/UserListCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/reporter/MyExtentReporterListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/respority/dev/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/respority/test/ConfigDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/respority/test/LoginCaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/respority/test/SaveUserCaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/respority/test/UserDetailCaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/respority/test/UserListDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/utils/HttpClientUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/utils/config/DataSourceConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/utils/config/JpaCaseConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/com/hsl/cn/utils/config/JpaDevConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/logback-springback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/target/classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javaauto/src/main/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaautotest/test-output/report.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/javaautointerface/target/" />
-    <ignored path="$PROJECT_DIR$/javaautointerface2/target/" />
     <ignored path="$PROJECT_DIR$/javaautotest/target/" />
+    <ignored path="$PROJECT_DIR$/java3/target/" />
+    <ignored path="$PROJECT_DIR$/javaauto/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1360400917">
+    <session id="1778462836">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.54" value="1" />
-          <entry key="project.open.time.63" value="1" />
-          <entry key="project.open.time.67" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.96" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="4" />
+          <entry key="java" value="68" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="51" />
-          <entry key="HTML" value="2" />
-          <entry key="JAVA" value="260" />
-          <entry key="Properties" value="31" />
-          <entry key="XML" value="49" />
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="68" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2670" />
+          <entry key="properties" value="32" />
+          <entry key="xml" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="10835" />
-          <entry key="PLAIN_TEXT" value="25" />
-          <entry key="Properties" value="156" />
-          <entry key="XML" value="575" />
+          <entry key="JAVA" value="2670" />
+          <entry key="Properties" value="32" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="21" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1360400917">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.100" value="1" />
+          <entry key="project.open.time.108" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.72" value="1" />
+          <entry key="project.open.time.93" value="1" />
+          <entry key="project.open.time.99" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3342" />
+          <entry key="XML" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="5" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="107" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -137,41 +250,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/config/TestConfig.java">
+        <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/TestUserDetail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+            <state relative-caret-position="816">
+              <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/TestUserList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
               <folding>
-                <element signature="e#1428#1429#0" expanded="true" />
-                <element signature="e#1464#1465#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/cases/TestLogin.java">
+        <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="38" column="66" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaautotest/src/main/resources/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,55 +283,71 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/utils/HttpClientUtils.java">
+        <entry file="file://$PROJECT_DIR$/javaauto/src/main/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="106" column="33" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
+            <state relative-caret-position="357">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/test/Config.java">
+        <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/dev/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding>
+                <element signature="e#1147#1148#0" expanded="true" />
+                <element signature="e#1217#1218#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/TestSaveUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="72" column="59" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/test/UrlConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaautotest/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/respority/test/LoginCaseDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="68">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaautotest/src/main/resources/logback-springback.xml">
+        <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/respority/test/UrlConfigDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/respority/test/LoginCaseDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/test/LoginCase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="68">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -239,14 +358,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>cookieStore</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -254,57 +367,42 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/dao/UserDetailCaseDao.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/dao/UserListDao.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/UserListCase.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/LoginCase.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/SaveUserCase.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/dao1/UserListDao.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/casesrespority/UserListDao.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/config/JpaFirstConfiguration.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/config/JpaSecondConfiguration.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/resultrespority/UserDao.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/config/JpaDevConfiguration.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/config/DataSourceConfiguration.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/UserDetailCase.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/test.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestLogin.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/config/HibernateProxyTypeAdapter.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/config/JpaCaseConfiguration.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/User.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestUserList.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/utils/HttpUtils.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/utils/HttpClientUtils.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestUserDetail.java" />
-        <option value="$PROJECT_DIR$/javaautointerface2/src/main/java/cn/respority/casesrespority/SaveUserCaseDao.java" />
-        <option value="$PROJECT_DIR$/javaautointerface2/src/main/java/com/hsl/cn/respority/casesrespority/SaveUserCaseDao.java" />
-        <option value="$PROJECT_DIR$/javaautointerface2/src/main/java/com/hsl/cn/pojo/Config.java" />
-        <option value="$PROJECT_DIR$/javaautointerface2/src/main/java/com/hsl/cn/respority/casesrespority/ConfigDao.java" />
-        <option value="$PROJECT_DIR$/javaautointerface2/src/main/java/com/hsl/cn/config/TestConfig.java" />
-        <option value="$PROJECT_DIR$/javaautointerface2/src/main/java/com/hsl/cn/Application.java" />
+        <option value="$PROJECT_DIR$/java3/pom.xml" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/cn/dataobject/pojo/test/UrlConfig.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/test/UrlConfig.java" />
+        <option value="$PROJECT_DIR$/javaauto/pom.xml" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/utils/HttpClientUtilsResult.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/utils/HttpClientUtils2.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/utils/datasources/DataSourceConfiguration.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/test/LoginCase.java" />
         <option value="$PROJECT_DIR$/javaautointerface/src/main/resources/testng.xml" />
-        <option value="$PROJECT_DIR$/javaautointerface2/pom.xml" />
-        <option value="$PROJECT_DIR$/javaautointerface2/src/main/java/com/hsl/cn/reporter/MyExtentReporterListener.java" />
-        <option value="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/cases/TestUserDetail.java" />
-        <option value="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/respority/casesrespority/ConfigDao.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/utils/reporter/MyExtentReporterListener.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/respority/test/LoginCaseDao.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/cases/TestLogin2.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/utils/JsonPathUtils.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/respority/test/SaveUserCaseDao.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/appmodules/LoginAction.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/appmodules/SaveUserAction.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/utils/HttpClientUtils.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/cases/BaseTest.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/cases/TestSaveUser.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/cases/TestUserDetail.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/cases/TestLogin.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/cases/TestUserList.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/resources/testng.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/javaautotest/src/main/resources/testng.xml" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/utils/config/JpaCaseConfiguration.java" />
-        <option value="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/utils/config/JpaDevConfiguration.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/utils/config/JpaCaseConfiguration.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/utils/config/JpaDevConfiguration.java" />
-        <option value="$PROJECT_DIR$/javaautotest/pom.xml" />
-        <option value="$PROJECT_DIR$/javaautotest/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/Application.java" />
-        <option value="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/config/TestConfig.java" />
-        <option value="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/cases/BaseTest.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/dev/UserDao.java" />
-        <option value="$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/test/LoginCaseDao.java" />
-        <option value="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/respority/test/LoginCaseDao.java" />
-        <option value="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/utils/HttpClientUtils.java" />
-        <option value="$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/cases/TestLogin.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/kk.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/test/UserListCase.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/test/SaveUserCase.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/test/UserDetailCase.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/respority/dev/UserDao.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/TestLogin.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/dev/User.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/TestUserList.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/TestSaveUser.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/TestUserDetail.java" />
+        <option value="$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/BaseTest.java" />
       </list>
     </option>
   </component>
@@ -327,11 +425,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="46" />
-    <option name="y" value="36" />
-    <option name="width" value="1297" />
-    <option name="height" value="788" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="15" />
+    <option name="y" value="123" />
+    <option name="width" value="1377" />
+    <option name="height" value="626" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -347,138 +445,6 @@
               <item name="auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="auto" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="javaautointerface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="javaautointerface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="javaautotest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="javaautotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="javaautotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="javaautotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="javaautotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="javaautotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="cases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="javaautotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="javaautotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="javaautotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="javaautotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="respority" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="javaautotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="respority" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="javaautotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="javaautotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="javaautotest" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -487,29 +453,27 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Us&#9;FILE&#9;file://E:/auto/javaautointerface/src/main/java/com/hsl/cn/pojo/User.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561701239173" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564138576085" />
+    <property name="last_opened_file_path" value="E:/myapplication" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.hsl.cn.pojo" />
-      <recent name="com.hsl.cn.config" />
-      <recent name="com.hsl.cn.reporter" />
       <recent name="com.hsl.cn.cases" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\auto\javaautotest\src\main\resources" />
-      <recent name="E:\auto\javaautotest\src\main\java\com\hsl\cn\utils" />
-      <recent name="E:\auto\javaautotest\src\main\java\com\hsl\cn\respority" />
-      <recent name="E:\auto\javaautotest\src\main\java\com\hsl\cn\pojo" />
-      <recent name="E:\auto\javaautotest\src\main\java\com\hsl\cn\cases" />
+      <recent name="F:\workproject\auto\javaauto\src\main\java\com\hsl\cn\dataobject\pojo\test" />
+      <recent name="F:\workproject\auto\javaauto\src\main\java\com\hsl\cn\dataobject\respority\test" />
+      <recent name="F:\workproject\auto\javaauto\src\main\java\com\hsl\cn\utils\datasources" />
+      <recent name="F:\workproject\auto\javaauto\src\main\resources" />
+      <recent name="F:\workproject\auto\javaauto\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -524,31 +488,60 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestLogin">
-    <configuration name="TestConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hsl.cn.config.TestConfig" />
-      <module name="javaautotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hsl.cn.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="TestNG.TestSaveUser.testSaveUser">
+    <configuration name="E:/auto/javaauto/src/main/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javaauto" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/javaauto/src/main/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaseTest.test2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="javaautotest" />
+    <configuration name="TestSaveUser (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javaauto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hsl.cn.cases.*" />
+          <option name="PATTERN" value="com.hsl.cn.testscript.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hsl.cn.cases" />
-      <option name="MAIN_CLASS_NAME" value="com.hsl.cn.cases.BaseTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="com.hsl.cn.testscript" />
+      <option name="MAIN_CLASS_NAME" value="com.hsl.cn.testscript.TestSaveUser" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSaveUser" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javaauto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hsl.cn.testscript.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hsl.cn.testscript" />
+      <option name="MAIN_CLASS_NAME" value="com.hsl.cn.testscript.TestSaveUser" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSaveUser.testSaveUser" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javaauto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hsl.cn.testscript.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hsl.cn.testscript" />
+      <option name="MAIN_CLASS_NAME" value="com.hsl.cn.testscript.TestSaveUser" />
+      <option name="METHOD_NAME" value="testSaveUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -556,36 +549,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E:/auto/javaautointerface/src/main/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="javaautointerface" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/javaautointerface/src/main/resources/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E:/auto/javaautotest/src/main/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="javaautotest" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/javaautotest/src/main/resources/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLogin" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="javaautotest" />
+    <configuration name="TestUserList.testUserList" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javaauto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hsl.cn.cases.*" />
+          <option name="PATTERN" value="com.hsl.cn.testscript.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hsl.cn.cases" />
-      <option name="MAIN_CLASS_NAME" value="com.hsl.cn.cases.TestLogin" />
+      <option name="PACKAGE_NAME" value="com.hsl.cn.testscript" />
+      <option name="MAIN_CLASS_NAME" value="com.hsl.cn.testscript.TestUserList" />
+      <option name="METHOD_NAME" value="testUserList" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -593,19 +568,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.BaseTest.test2" />
-      <item itemvalue="TestNG.E:/auto/javaautointerface/src/main/resources/testng.xml" />
-      <item itemvalue="Application.TestConfig" />
-      <item itemvalue="TestNG.E:/auto/javaautotest/src/main/resources/testng.xml" />
-      <item itemvalue="TestNG.TestLogin" />
+      <item itemvalue="TestNG.TestSaveUser.testSaveUser" />
+      <item itemvalue="TestNG.TestSaveUser" />
+      <item itemvalue="TestNG.TestSaveUser (1)" />
+      <item itemvalue="TestNG.TestUserList.testUserList" />
+      <item itemvalue="TestNG.E:/auto/javaauto/src/main/resources/testng.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestLogin" />
-        <item itemvalue="Application.TestConfig" />
-        <item itemvalue="TestNG.E:/auto/javaautotest/src/main/resources/testng.xml" />
-        <item itemvalue="TestNG.E:/auto/javaautointerface/src/main/resources/testng.xml" />
-        <item itemvalue="TestNG.BaseTest.test2" />
+        <item itemvalue="TestNG.TestSaveUser.testSaveUser" />
+        <item itemvalue="TestNG.TestUserList.testUserList" />
+        <item itemvalue="TestNG.E:/auto/javaauto/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.TestSaveUser" />
+        <item itemvalue="TestNG.TestSaveUser (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -614,63 +589,58 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e49db916-b080-45cb-8e46-df894c0b6622" name="Default Changelist" comment="" />
-      <created>1560235312729</created>
+      <changelist id="fa1b927f-ac49-4553-808b-2e2c83caa6de" name="Default Changelist" comment="" />
+      <created>1562477105896</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1560235312729</updated>
-      <workItem from="1560235317889" duration="9313000" />
-      <workItem from="1560306361806" duration="46000" />
-      <workItem from="1560306460478" duration="29000" />
-      <workItem from="1560306539696" duration="3054000" />
-      <workItem from="1560309718758" duration="24074000" />
-      <workItem from="1560734857012" duration="48231000" />
-      <workItem from="1560998226399" duration="16045000" />
-      <workItem from="1561108442524" duration="4656000" />
-      <workItem from="1561339720727" duration="2906000" />
-      <workItem from="1561433279557" duration="1597000" />
-      <workItem from="1561449132567" duration="15270000" />
-      <workItem from="1561540851529" duration="11000" />
-      <workItem from="1561541010642" duration="20246000" />
+      <updated>1562477105896</updated>
+      <workItem from="1562477111632" duration="21451000" />
+      <workItem from="1562553194277" duration="4696000" />
+      <workItem from="1562571935095" duration="14332000" />
+      <workItem from="1563260873223" duration="1244000" />
+      <workItem from="1563782390781" duration="841000" />
+      <workItem from="1563853496294" duration="2634000" />
+      <workItem from="1563934548940" duration="14111000" />
+      <workItem from="1564107326894" duration="2772000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestLogin - 2019.06.27 at 14h 25m 12s.xml">
-      <configuration name="TestLogin" configurationId="TestNG" />
+    <history-entry file="TestUserList_testUserList - 2019.07.24 at 17h 59m 43s.xml">
+      <configuration name="TestUserList.testUserList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestLogin - 2019.06.27 at 14h 32m 42s.xml">
-      <configuration name="TestLogin" configurationId="TestNG" />
+    <history-entry file="TestUserList_testUserList - 2019.07.24 at 18h 01m 36s.xml">
+      <configuration name="TestUserList.testUserList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestLogin - 2019.06.27 at 14h 39m 10s.xml">
-      <configuration name="TestLogin" configurationId="TestNG" />
+    <history-entry file="TestUserList_testUserList - 2019.07.24 at 18h 02m 35s.xml">
+      <configuration name="TestUserList.testUserList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestLogin - 2019.06.27 at 15h 14m 37s.xml">
-      <configuration name="TestLogin" configurationId="TestNG" />
+    <history-entry file="TestUserList_testUserList - 2019.07.24 at 18h 12m 38s.xml">
+      <configuration name="TestUserList.testUserList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestLogin - 2019.06.27 at 16h 44m 47s.xml">
-      <configuration name="TestLogin" configurationId="TestNG" />
+    <history-entry file="TestUserList_testUserList - 2019.07.24 at 18h 13m 31s.xml">
+      <configuration name="TestUserList.testUserList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestLogin - 2019.06.27 at 16h 45m 46s.xml">
-      <configuration name="TestLogin" configurationId="TestNG" />
+    <history-entry file="E__auto_javaauto_src_main_resources_testng_xml - 2019.07.24 at 18h 15m 28s.xml">
+      <configuration name="E:/auto/javaauto/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestLogin - 2019.06.27 at 16h 58m 41s.xml">
-      <configuration name="TestLogin" configurationId="TestNG" />
+    <history-entry file="TestUserList_testUserList - 2019.07.24 at 18h 16m 29s.xml">
+      <configuration name="TestUserList.testUserList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestLogin - 2019.06.27 at 16h 59m 55s.xml">
-      <configuration name="TestLogin" configurationId="TestNG" />
+    <history-entry file="TestSaveUser_testSaveUser - 2019.07.24 at 18h 19m 38s.xml">
+      <configuration name="TestSaveUser.testSaveUser" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestLogin - 2019.06.27 at 17h 33m 28s.xml">
-      <configuration name="TestLogin" configurationId="TestNG" />
+    <history-entry file="TestSaveUser_testSaveUser - 2019.07.24 at 18h 21m 44s.xml">
+      <configuration name="TestSaveUser.testSaveUser" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestLogin - 2019.06.27 at 17h 37m 53s.xml">
-      <configuration name="TestLogin" configurationId="TestNG" />
+    <history-entry file="TestSaveUser_testSaveUser - 2019.07.24 at 18h 22m 01s.xml">
+      <configuration name="TestSaveUser.testSaveUser" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145478000" />
+    <option name="totallyTimeSpent" value="62081000" />
   </component>
-  <component name="TodoView" selected-index="1">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -680,9 +650,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="36" width="1297" height="788" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22231205" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28366113" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -690,27 +661,28 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.60556465" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8313162" visible="true" weight="0.72671753" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2667758" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.37315875" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3878887" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5581015" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.5482815" />
-      <window_info anchor="bottom" id="EvoSuite" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.16868381" side_tool="true" weight="0.60720134" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49621785" weight="0.29007635" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.62847793" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.45499182" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.4599018" />
+      <window_info anchor="bottom" id="EvoSuite" order="13" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.0" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.040090773" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,413 +691,285 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/config/TestConfig.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestUserList.java</url>
-          <line>38</line>
-          <properties class="com.hsl.cn.cases.TestUserList" method="testUser">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/config/TestConfig.java</url>
-          <line>46</line>
-          <properties class="com.hsl.cn.config.TestConfig" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javaautointerface2/src/main/java/com/hsl/cn/cases/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/utils/datasources/DataSourceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/BaseTest.java" />
+    <entry file="jar://E:/maven/localrepo/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11-sources.jar!/org/apache/http/HttpResponse.java" />
+    <entry file="jar://E:/maven/localrepo/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11-sources.jar!/org/apache/http/HttpMessage.java" />
+    <entry file="jar://E:/maven/localrepo/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/SuiteRunnerWorker.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/ObjectFactoryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar!/org/apache/http/message/AbstractHttpMessage.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface2/src/main/java/com/hsl/cn/cases/TestUserDetail.java">
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/utils/HttpClientUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="485">
+          <caret line="53" column="50" lean-forward="true" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface2/src/main/java/com/hsl/cn/cases/TestLogin.java">
+    <entry file="file://E:/Java-API-Test-Examples-master/Java-API-Test-Examples-master/springboot-assertj-demo/src/main/java/com/zuozewei/springbootassertjdemo/entity/Dog.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/utils/JsonPathUtils.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="3638">
+          <caret line="250" column="36" selection-start-line="250" selection-start-column="36" selection-end-line="250" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/cases/TestSaveUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32.jar!/org/apache/catalina/connector/Connector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="508" selection-start-line="508" selection-end-line="508" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/TestClass.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="e#2569#2570#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="762" column="48" selection-start-line="762" selection-start-column="18" selection-end-line="762" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/dev/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/utils/config/DataSourceConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/utils/config/JpaCaseConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/utils/config/JpaDevConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/test/UserDetailCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/test/UserListCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/dev/User.java">
+    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/appmodules/LoginAction.java" />
+    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/cases/TestLogin2.java" />
+    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/config/TestConfig.java" />
+    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/appmodules/LoginAction.java" />
+    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestLogin2.java" />
+    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestSaveUser.java" />
+    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestUserDetail.java" />
+    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestUserList.java" />
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/utils/reporter/MyExtentReporterListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/reporter/MyExtentReporterListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/utils/config/DataSourceConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/utils/config/JpaCaseConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/utils/config/JpaDevConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/reporter/MyExtentReporterListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/respority/dev/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/respority/test/UserDetailCaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/test/SaveUserCase.java">
+    <entry file="file://$PROJECT_DIR$/javaauto/test-output/report.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/appmodules/SaveUserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/appmodules/LoginAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/test/UserDetailCase.java">
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/test/UserListCase.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestSaveUser.java">
+    <entry file="file://$PROJECT_DIR$/javaauto/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="221">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.17.Final/hibernate-core-5.2.17.Final.jar!/org/hibernate/proxy/AbstractLazyInitializer.class">
+    <entry file="jar://D:/java/jdk1.8.0_77/src.zip!/java/util/Date.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        <state relative-caret-position="6461">
+          <caret line="628" column="35" lean-forward="true" selection-start-line="628" selection-start-column="35" selection-end-line="628" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/kk.java" />
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/config/TestConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/cases/TestLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="62" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/cases/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        <state relative-caret-position="226">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/test/SaveUserCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#2034#2035#0" expanded="true" />
-            <element signature="e#2120#2121#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/config/TestConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/TestClass.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="201">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/test/SaveUserCase.java">
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/respority/test/UserListDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="153">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/test/LoginCaseDao.java">
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/respority/dev/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        <state relative-caret-position="153">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/respority/dev/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/test/ProjectConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="187">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautointerface/src/main/java/com/hsl/cn/pojo/test/LoginCase.java">
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/test/UserListCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="64">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/respority/test/LoginCaseDao.java">
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/test/UserDetailCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="204">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/test/LoginCase.java">
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/test/LoginCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="132">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/respority/test/ProjectConfigDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/resources/logback-springback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/Application.java">
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/respority/test/SaveUserCaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/TestLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/TestUserDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/dev/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/TestSaveUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="72" column="59" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/utils/HttpClientUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="106" column="33" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/pojo/test/Config.java">
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/pojo/test/UrlConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/config/TestConfig.java">
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/respority/test/LoginCaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/dataobject/respority/test/UrlConfigDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/TestUserList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
           <folding>
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaautotest/src/main/java/com/hsl/cn/cases/TestLogin.java">
+    <entry file="file://$PROJECT_DIR$/javaauto/src/main/java/com/hsl/cn/testscript/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="38" column="66" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1146,7 +990,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1181,7 +1025,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>javaautointerface2</last-edited>
+          <last-edited>javaautointerface (1)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
